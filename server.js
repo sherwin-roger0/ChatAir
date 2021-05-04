@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({urlextended: false}))
 
-mongoose.connect("mongodb+srv://ADMIN:tronster@9@chatair.vsu3r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
+mongoose.connect("",{
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
